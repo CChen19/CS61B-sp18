@@ -1,6 +1,6 @@
 public class NBody {
-    public static String imageToDraw = "images/starfield.jpg";
-    public static int numOfPlants;
+    private static final String imageToDraw = "images/starfield.jpg";
+    private static int numOfPlants;
     public static double readRadius(String s) {
         In in = new In(s);
         in.readInt();
